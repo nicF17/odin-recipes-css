@@ -6,45 +6,42 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.list{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 a{
     display: block;
+    height: 100px;
+    width: 300px;
+    border: 10px white;
+    padding: 10px;
     text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: white;
-    font-size: 24px;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 400px;
-    height: 100px;
-    box-sizing: content-box;
-    padding: 15px;
-    margin: 20px;
+    margin: 20px auto;
 }
 
-#ac{
-    background-color: rgb(11, 85, 182);
+#arrozc{
+    background-color: rgb(2, 2, 34);
 }
-#c{
-    background-color: rgb(6, 89, 212);
+#ceviche{
+    background-color: rgb(1, 1, 77);
 }
-#h{
-    background-color: rgb(26, 49, 126);
+#hamburguer{
+    background-color: rgb(7, 7, 128);
 }
-#ls{
-    background-color: rgb(6, 17, 112);
+#lomo{
+    background-color: rgb(7, 7, 179);
 }
-#mwff{
-    background-color: rgb(3, 3, 49);
+#ceviche{
+    background-color: blue;
+}
+#milanesa{
+    background-color: rgb(27, 27, 240);
 }
 
 .images{
-    display: inline-block;
+    display: block;
     width: 100px;
     height: 60px;
+    margin: 0 auto;
 }
